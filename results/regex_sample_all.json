@@ -1,0 +1,135 @@
+{
+  "config": {
+    "method": "regex",
+    "data": "data/sample/sample_reports.jsonl",
+    "n_docs": 8,
+    "timestamp": "2026-10-31T14:26:33+00:00",
+    "collapse_hosts": true,
+    "regex_backend": "fallback",
+    "ioc_finder_version": null
+  },
+  "stats": {},
+  "metrics": {
+    "n_docs": 8,
+    "collapse_hosts": true,
+    "micro": {
+      "precision": 0.9117647058823529,
+      "recall": 1.0,
+      "f1": 0.9538461538461539,
+      "tp": 31,
+      "fp": 3,
+      "fn": 0
+    },
+    "per_type": {
+      "ipv4": {
+        "precision": 0.7142857142857143,
+        "recall": 1.0,
+        "f1": 0.8333333333333333,
+        "tp": 5,
+        "fp": 2,
+        "fn": 0,
+        "n_pred": 7,
+        "hallucination_rate": 0.0
+      },
+      "ipv6": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "n_pred": 1,
+        "hallucination_rate": 0.0
+      },
+      "domain": {
+        "precision": 0.75,
+        "recall": 1.0,
+        "f1": 0.8571428571428571,
+        "tp": 3,
+        "fp": 1,
+        "fn": 0,
+        "n_pred": 9,
+        "hallucination_rate": 0.0
+      },
+      "url": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 4,
+        "fp": 0,
+        "fn": 0,
+        "n_pred": 4,
+        "hallucination_rate": 0.0
+      },
+      "email": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "n_pred": 2,
+        "hallucination_rate": 0.0
+      },
+      "md5": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "n_pred": 1,
+        "hallucination_rate": 0.0
+      },
+      "sha1": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "n_pred": 1,
+        "hallucination_rate": 0.0
+      },
+      "sha256": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 3,
+        "fp": 0,
+        "fn": 0,
+        "n_pred": 3,
+        "hallucination_rate": 0.0
+      },
+      "cve": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 4,
+        "fp": 0,
+        "fn": 0,
+        "n_pred": 4,
+        "hallucination_rate": 0.0
+      },
+      "attack_technique": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 7,
+        "fp": 0,
+        "fn": 0,
+        "n_pred": 7,
+        "hallucination_rate": 0.0
+      }
+    },
+    "hallucination": {
+      "n_pred": 39,
+      "n_ungrounded": 0,
+      "rate": 0.0,
+      "n_ungrounded_strict": 6,
+      "rate_strict": 0.15384615384615385,
+      "quotes_checked": 0,
+      "quote_ungrounded_rate": null
+    }
+  }
+}

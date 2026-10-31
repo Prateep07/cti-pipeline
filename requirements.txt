@@ -1,0 +1,6 @@
+ioc-finder
+pydantic>=2
+pytest
+# LLM baseline backends (install the one you use)
+anthropic
+openai
